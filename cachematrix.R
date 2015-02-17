@@ -34,7 +34,7 @@
 makeCacheMatrix <- function(x = matrix()) {
 	## Create an object that holds both a provided matrix and its inverse.
 	inv <- NULL
-    set <- function(y) {
+	set <- function(y) {
 		x <<- y
 		inv <<- NULL
 	}
